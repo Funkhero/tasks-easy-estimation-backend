@@ -1,0 +1,24 @@
+{
+  "name": "tasks-assessment-backend",
+  "version": "1.0.0",
+  "description": "Запуск проекта:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "index.js dotenv_config_path=.env.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Funkhero/tasks-assessment-backend.git"
+  },
+  "author": "Evgeny Koldin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Funkhero/tasks-assessment-backend/issues"
+  },
+  "homepage": "https://github.com/Funkhero/tasks-assessment-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "passport": "^0.4.1"
+  }
+}

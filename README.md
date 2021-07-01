@@ -1,2 +1,6 @@
-# tasks-assessment-backend
-Backend part of task assessment app
+# backend
+
+Запуск проекта:
+
+    npm i
+    npm run dev
