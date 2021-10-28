@@ -1,5 +1,5 @@
 {
-  "name": "tasks-assessment-backend",
+  "name": "ttasks-easy-estimation-backend",
   "version": "1.0.0",
   "description": "Запуск проекта:",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Funkhero/tasks-assessment-backend.git"
+    "url": "git+https://github.com/Funkhero/tasks-easy-estimation-backend.git"
   },
   "author": "Evgeny Koldin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Funkhero/tasks-assessment-backend/issues"
+    "url": "https://github.com/Funkhero/tasks-easy-estimation-backend/issues"
   },
-  "homepage": "https://github.com/Funkhero/tasks-assessment-backend#readme",
+  "homepage": "https://github.com/Funkhero/tasks-easy-estimation-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
