@@ -2,9 +2,9 @@
   "name": "tasks-easy-estimation-backend",
   "version": "1.0.0",
   "description": "Запуск проекта:",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "index.js dotenv_config_path=.env.dev"
+    "dev": "ts-node -r dotenv/config src/index.ts dotenv_config_path=.env.dev"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,16 @@
   },
   "homepage": "https://github.com/Funkhero/tasks-easy-estimation-backend#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "dotenv": "^16.0.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
   }
 }
